@@ -23,7 +23,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'ashfakcode Docker Hub'
-        repository: 'ashfakcode/weatherapi-azure-devops'
+        repository: 'ashfakcode/weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: |
